@@ -5,7 +5,7 @@
 package org.learning.hibernate.utils;
 
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
+import org.hibernate.cfg.AnnotationConfiguration;
 
 public class HibernateUtils {
  
@@ -13,10 +13,11 @@ public class HibernateUtils {
 
     private static SessionFactory buildSessionFactory() {
         try {
-            // Use hibernate.cfg.xml to get a SessionFactory
-            return new Configuration().configure().buildSessionFactory();
+            return new AnnotationConfiguration().configure().buildSessionFactory();
         } catch (Throwable e) {
-            System.err.println("Unable to create SessionFactory." + e);
+            System.err.println("Unable to create SessionFactory. ");
+            System.err.println("");
+            System.err.println(e);
             throw new ExceptionInInitializerError(e);
         }
     }
