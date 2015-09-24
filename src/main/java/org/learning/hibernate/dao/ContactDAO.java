@@ -9,7 +9,7 @@ import java.util.List;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.learning.hibernate.Contact;
+import org.learning.hibernate.pojo.Contact;
 import org.learning.hibernate.utils.HibernateUtils;
 
 public class ContactDAO {

@@ -1,4 +1,4 @@
-package org.learning.hibernate;
+package org.learning.hibernate.pojo;
 
 public class Contact {
     private int id;
