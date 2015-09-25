@@ -2,15 +2,15 @@
  * @author jagdeepjain
  *
  */
-package org.learning.hibernate.dao;
+package org.jagdeep.example.schema.dao;
 
 import java.util.List;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.learning.hibernate.pojo.Contact;
-import org.learning.hibernate.utils.HibernateUtils;
+import org.jagdeep.example.hibernate.utils.HibernateUtils;
+import org.jagdeep.example.schema.pojo.Contact;
 
 public class ContactDAO {
     

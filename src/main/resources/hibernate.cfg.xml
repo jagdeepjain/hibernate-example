@@ -16,7 +16,7 @@
 		<!--property name="show_sql">true</property>
 		<property name="format_sql">true</property-->
 		
-		<mapping class="org.learning.hibernate.pojo.Contact" />
+		<mapping class="org.jagdeep.example.schema.pojo.Contact" />
 
 	</session-factory>
 	

@@ -1,4 +1,4 @@
-package org.learning.hibernate.pojo;
+package org.jagdeep.example.schema.pojo;
 
 
 import java.io.Serializable;

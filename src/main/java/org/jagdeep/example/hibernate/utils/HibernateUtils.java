@@ -2,7 +2,7 @@
  * @author jagdeepjain
  *
  */
-package org.learning.hibernate.utils;
+package org.jagdeep.example.hibernate.utils;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;

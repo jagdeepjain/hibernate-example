@@ -1,11 +1,11 @@
-package org.learning.hibernet;
+package org.jagdeep.example.schema.tests;
 
 import static org.junit.Assert.*;
 
+import org.jagdeep.example.schema.dao.ContactDAO;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.learning.hibernate.dao.ContactDAO;
 
 public class AddEmployeeTest {
     
